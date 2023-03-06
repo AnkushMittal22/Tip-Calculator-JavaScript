@@ -1,0 +1,40 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(255, 0, 0);
+}
+
+#main{
+    background-color: rgb(255, 255, 0);
+   width: 400px;
+   height: 600px;
+   position: absolute;
+   top: 10%;
+   left: 40%;
+}
+
+#tip-calculator{
+    background-color: blue;
+    margin: 0;
+    padding: 5px;
+    text-align: center;
+    color: white;
+    border-radius: 0 0 20px 20px;
+    font-size: 20px;
+}
+
+button{
+    background-color: blue;
+    padding: 15px;
+    border: 2px solid red;
+    border-radius: 10px;
+}
+
+#middle{
+    padding-left: 30%;
+}
+
+footer{
+    text-align: center;
+}
+

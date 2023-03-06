@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="main">
+      <div id="tip-calculator">
+        <h1>Tip Calculator</h1>
+      </div>
+      <div id="middle">
+        <div>
+          <h3>Bill Amount</h3>
+          <input type="number" id="amount" placeholder="Amount to be paid" />
+          <i>*</i>
+        </div>
+
+        <div>
+          <h3>How was the service ?</h3>
+          <select id="service">
+            <option value="">select</option>
+            <option value="0.20">20%-Excellent</option>
+            <option value="0.10">10%-Good</option>
+            <option value="0.05">5%-Not Good</option>
+          </select>
+          <i>*</i>
+        </div>
+        <div>
+          <h3>Total number of persons</h3>
+          <input type="number" placeholder="Person" id="person" /><i>*</i>
+        </div>
+        <br />
+        <div>
+          <button>Calculator</button>
+        </div>
+      </div>
+      <footer>
+        <div>
+          <h2>Tip Amount</h2>
+          <h4><span id="tip">0</span> Each</h4>
+        </div>
+        <div>
+          <h2>Total Amount By 1 Person</h2>
+          <h4><span id="total">0</span> Each</h4>
+        </div>
+      </footer>
+    </div>
+    <script src="calculator.js" defer></script>
+  </body>
+</html>
